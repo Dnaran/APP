@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="Strategy_Activity">
+
+    <LinearLayout
+        android:background="@color/blue"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50">
+        <TextView
+            android:text="攻略详情"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+    <!--<ScrollView-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<LinearLayout-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<com.example.administrator.myapplication.MyImageView-->
+                <!--android:id="@+id/strategy_img"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="200dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/strategy_name"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="@color/login_b"-->
+                <!--android:textSize="30dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="热门景点"/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/strategy_detail"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="25dp"-->
+                <!--android:text="西大著名的景点包括荷花池、鲜花瀑布，还有著名建筑综合实验大楼、图书馆、西大历史最悠久的现代建筑&#45;&#45;大礼堂等。还有碧云湖、相思湖等好几个小湖，景色非常不错，碧水蓝天，说是一步一景也毫不夸张。"/>-->
+
+        <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+
+
+</LinearLayout>
